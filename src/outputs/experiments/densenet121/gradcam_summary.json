@@ -1,0 +1,9 @@
+{
+  "model": "densenet121",
+  "selected_images": 6,
+  "correct_predictions": 3,
+  "incorrect_predictions": 3,
+  "selection": "model_disagreements",
+  "output_directory": "D:\\Pavani\\Research Project\\Project\\outputs\\experiments\\densenet121\\gradcam",
+  "results_csv": "D:\\Pavani\\Research Project\\Project\\outputs\\experiments\\densenet121\\gradcam\\gradcam_results.csv"
+}
