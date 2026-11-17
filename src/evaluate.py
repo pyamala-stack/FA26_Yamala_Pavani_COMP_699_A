@@ -14,7 +14,7 @@ from src.metrics import calculate_metrics
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", choices=["resnet50", "densenet121"], required=True)
-    parser.add_argument("--checkpoint", required=True)
+    parser.add_argument("--checkpoint", default=None)
     parser.add_argument("--data-root", default=str(SPLIT_ROOT))
     args = parser.parse_args()
 
@@ -26,7 +26,8 @@ def main():
     )
 
     model = build_model(args.model, pretrained=False).to(device)
-    checkpoint = torch.load(args.checkpoint, map_location=device)
+    checkpoint_path = args.checkpoint or str(OUTPUT_ROOT / args.model / "best_model.pt")
+    checkpoint = torch.load(checkpoint_path, map_location=device, weights_only=False)
     model.load_state_dict(checkpoint["model_state_dict"])
     model.eval()
 
@@ -49,7 +50,7 @@ def main():
                 ])
 
     results = calculate_metrics(
-        y_true, y_pred, probabilities, len(CLASS_NAMES)
+        y_true, y_pred, probabilities, len(CLASS_NAMES), CLASS_NAMES
     )
     results["class_names"] = CLASS_NAMES
     results["test_image_count"] = len(test_data)
