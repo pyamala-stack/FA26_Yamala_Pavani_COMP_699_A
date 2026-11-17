@@ -1,0 +1,7 @@
+image_path,actual_class,predicted_class,confidence,correct_prediction,gradcam_image
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000012_000131_832.jpg,Lung_Opacity,Lung_Opacity,0.4430619180202484,True,gradcam_01_000012_000131_832.png
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000015_000010_275.jpg,Lung_Opacity,Normal,0.3895368278026581,False,gradcam_02_000015_000010_275.png
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000025_000074_1089.jpg,Lung_Opacity,Normal,0.37341955304145813,False,gradcam_03_000025_000074_1089.png
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000026_000305_1117.jpg,Lung_Opacity,Lung_Opacity,0.5298656821250916,True,gradcam_04_000026_000305_1117.png
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000027_000640_999.jpg,Lung_Opacity,Normal,0.4394078254699707,False,gradcam_05_000027_000640_999.png
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000029_000108_325.jpg,Lung_Opacity,Lung_Opacity,0.4486534893512726,True,gradcam_06_000029_000108_325.png
