@@ -1,0 +1,10 @@
+[
+  {
+    "epoch": 1,
+    "training_loss": 0.9418953056194048,
+    "training_accuracy": 0.6733937397034596,
+    "validation_loss": 0.7530369980257141,
+    "validation_accuracy": 0.8188824662813102,
+    "epoch_time_seconds": 638.9785855999999
+  }
+]

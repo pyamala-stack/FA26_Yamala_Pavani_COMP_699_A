@@ -1,0 +1,524 @@
+filepath,actual,predicted,probability_Lung_Opacity,probability_Normal,probability_Viral Pneumonia
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000000_000314_717.jpg,Lung_Opacity,Lung_Opacity,0.4470274746417999,0.3374873697757721,0.21548517048358917
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000001_000039_355.jpg,Lung_Opacity,Lung_Opacity,0.5400219559669495,0.27215245366096497,0.18782548606395721
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000002_000064_892.jpg,Lung_Opacity,Lung_Opacity,0.5310273766517639,0.28475216031074524,0.18422038853168488
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000003_000112_1052.jpg,Lung_Opacity,Lung_Opacity,0.6208564639091492,0.22808517515659332,0.15105843544006348
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000004_000371_767.jpg,Lung_Opacity,Lung_Opacity,0.5523234605789185,0.2718655467033386,0.1758110523223877
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000005_000164_849.jpg,Lung_Opacity,Lung_Opacity,0.5637686848640442,0.2741353213787079,0.16209600865840912
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000006_000045_935.jpg,Lung_Opacity,Lung_Opacity,0.4818079471588135,0.32640960812568665,0.1917823851108551
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000007_000019_734.jpg,Lung_Opacity,Lung_Opacity,0.4040582478046417,0.20839589834213257,0.3875458538532257
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000008_000500_310.jpg,Lung_Opacity,Lung_Opacity,0.4446369707584381,0.24141407012939453,0.31394898891448975
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000009_000331_1122.jpg,Lung_Opacity,Lung_Opacity,0.6282174587249756,0.18947042524814606,0.18231208622455597
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000010_000613_642.jpg,Lung_Opacity,Lung_Opacity,0.5037523508071899,0.3475591242313385,0.14868856966495514
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000011_000000_123.jpg,Lung_Opacity,Lung_Opacity,0.4168950617313385,0.4118216931819916,0.17128321528434753
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000012_000131_832.jpg,Lung_Opacity,Lung_Opacity,0.4430619180202484,0.3418104946613312,0.2151275873184204
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000013_000543_1002.jpg,Lung_Opacity,Lung_Opacity,0.5495608448982239,0.28345146775245667,0.16698774695396423
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000014_000157_1061.jpg,Lung_Opacity,Lung_Opacity,0.5277544856071472,0.26933741569519043,0.20290806889533997
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000015_000010_275.jpg,Lung_Opacity,Normal,0.34949448704719543,0.3895368278026581,0.2609686553478241
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000016_000102_483.jpg,Lung_Opacity,Lung_Opacity,0.5428122878074646,0.2567867934703827,0.20040088891983032
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000017_000165_722.jpg,Lung_Opacity,Lung_Opacity,0.48975449800491333,0.24557417631149292,0.2646713852882385
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000018_000033_689.jpg,Lung_Opacity,Lung_Opacity,0.49292972683906555,0.29018276929855347,0.21688754856586456
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000019_000382_1075.jpg,Lung_Opacity,Lung_Opacity,0.40205490589141846,0.36808472871780396,0.229860320687294
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000020_000156_555.jpg,Lung_Opacity,Lung_Opacity,0.5632380247116089,0.1961992383003235,0.24056275188922882
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000021_000203_161.jpg,Lung_Opacity,Lung_Opacity,0.5764830112457275,0.24262110888957977,0.1808958351612091
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000022_000623_520.jpg,Lung_Opacity,Lung_Opacity,0.5959460139274597,0.21896661818027496,0.1850873976945877
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000023_000031_453.jpg,Lung_Opacity,Lung_Opacity,0.5973852276802063,0.20441414415836334,0.19820064306259155
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000024_000654_365.jpg,Lung_Opacity,Lung_Opacity,0.634343683719635,0.22515740990638733,0.14049887657165527
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000025_000074_1089.jpg,Lung_Opacity,Normal,0.3692592978477478,0.37341955304145813,0.25732114911079407
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000026_000305_1117.jpg,Lung_Opacity,Lung_Opacity,0.5298656821250916,0.23919789493083954,0.2309364527463913
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000027_000640_999.jpg,Lung_Opacity,Normal,0.3510286808013916,0.4394078254699707,0.2095634937286377
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000028_000104_204.jpg,Lung_Opacity,Lung_Opacity,0.445941299200058,0.33471789956092834,0.21934080123901367
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000029_000108_325.jpg,Lung_Opacity,Lung_Opacity,0.4486534893512726,0.25263768434524536,0.29870882630348206
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000030_000147_23.jpg,Lung_Opacity,Lung_Opacity,0.44873830676078796,0.29090213775634766,0.2603594958782196
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000031_000519_432.jpg,Lung_Opacity,Normal,0.3701891601085663,0.37176933884620667,0.25804147124290466
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000032_000182_576.jpg,Lung_Opacity,Lung_Opacity,0.4232959747314453,0.34776028990745544,0.22894376516342163
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000033_000780_358.jpg,Lung_Opacity,Lung_Opacity,0.5126664638519287,0.2396600842475891,0.24767343699932098
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000034_000512_629.jpg,Lung_Opacity,Viral Pneumonia,0.40133118629455566,0.17758148908615112,0.421087384223938
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000035_000269_438.jpg,Lung_Opacity,Lung_Opacity,0.5870429277420044,0.2913108468055725,0.12164624035358429
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000036_000736_326.jpg,Lung_Opacity,Normal,0.30327796936035156,0.3677886426448822,0.32893338799476624
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000037_000109_1027.jpg,Lung_Opacity,Lung_Opacity,0.5296311974525452,0.28889837861061096,0.18147045373916626
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000038_000739_307.jpg,Lung_Opacity,Lung_Opacity,0.3815355896949768,0.35842958092689514,0.2600347399711609
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000039_000021_169.jpg,Lung_Opacity,Lung_Opacity,0.5093897581100464,0.30373039841651917,0.18687981367111206
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000040_000003_1081.jpg,Lung_Opacity,Normal,0.2908184826374054,0.6038204431533813,0.10536111891269684
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000041_000464_324.jpg,Lung_Opacity,Lung_Opacity,0.4589109718799591,0.34831541776657104,0.19277359545230865
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000042_000128_130.jpg,Lung_Opacity,Lung_Opacity,0.5404388904571533,0.24371400475502014,0.21584713459014893
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000043_000445_1074.jpg,Lung_Opacity,Lung_Opacity,0.3997575342655182,0.33776798844337463,0.26247453689575195
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000044_000300_699.jpg,Lung_Opacity,Lung_Opacity,0.40286099910736084,0.23604582250118256,0.3610931932926178
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000045_000099_1100.jpg,Lung_Opacity,Lung_Opacity,0.5343322157859802,0.27821075916290283,0.18745703995227814
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000046_000348_970.jpg,Lung_Opacity,Normal,0.27633896470069885,0.5441083908081055,0.1795526146888733
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000047_000656_150.jpg,Lung_Opacity,Normal,0.3031754791736603,0.4326919615268707,0.2641324996948242
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000048_000000_1072.jpg,Lung_Opacity,Lung_Opacity,0.4297853112220764,0.2868337333202362,0.283380925655365
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000049_000273_297.jpg,Lung_Opacity,Normal,0.363794207572937,0.3861912190914154,0.2500144839286804
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000050_000768_506.jpg,Lung_Opacity,Lung_Opacity,0.4365370571613312,0.24343571066856384,0.3200271725654602
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000051_000549_165.jpg,Lung_Opacity,Lung_Opacity,0.4812591075897217,0.26559978723526,0.2531411051750183
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000052_000119_198.jpg,Lung_Opacity,Lung_Opacity,0.5481196045875549,0.31182610988616943,0.14005427062511444
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000053_000698_915.jpg,Lung_Opacity,Lung_Opacity,0.5685427188873291,0.25881126523017883,0.17264598608016968
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000054_000117_427.jpg,Lung_Opacity,Lung_Opacity,0.542020320892334,0.2116486132144928,0.24633103609085083
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000055_000738_693.jpg,Lung_Opacity,Normal,0.27076590061187744,0.4993618428707123,0.22987213730812073
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000056_000144_612.jpg,Lung_Opacity,Lung_Opacity,0.5475110411643982,0.16676580905914307,0.2857232391834259
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000057_000011_946.jpg,Lung_Opacity,Lung_Opacity,0.5261221528053284,0.2962218225002289,0.17765609920024872
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000058_000010_538.jpg,Lung_Opacity,Lung_Opacity,0.6382290124893188,0.22428375482559204,0.13748732209205627
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000059_000094_421.jpg,Lung_Opacity,Lung_Opacity,0.5560940504074097,0.26659753918647766,0.17730844020843506
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000060_000566_1076.jpg,Lung_Opacity,Lung_Opacity,0.3926525115966797,0.3668636083602905,0.24048390984535217
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000061_000039_865.jpg,Lung_Opacity,Lung_Opacity,0.5255036950111389,0.20671668648719788,0.26777952909469604
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000062_000257_476.jpg,Lung_Opacity,Normal,0.2634178698062897,0.41801539063453674,0.31856679916381836
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000063_000133_473.jpg,Lung_Opacity,Lung_Opacity,0.482480525970459,0.25250914692878723,0.2650103271007538
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000064_000479_616.jpg,Lung_Opacity,Lung_Opacity,0.6131312847137451,0.2585545480251312,0.12831424176692963
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000065_000065_904.jpg,Lung_Opacity,Lung_Opacity,0.4773414134979248,0.3144785463809967,0.2081799954175949
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000066_000610_711.jpg,Lung_Opacity,Lung_Opacity,0.5005390644073486,0.34822189807891846,0.1512390673160553
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000067_000390_418.jpg,Lung_Opacity,Lung_Opacity,0.4044289290904999,0.36835089325904846,0.22722017765045166
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000068_000001_454.jpg,Lung_Opacity,Lung_Opacity,0.6056113839149475,0.21308104693889618,0.18130753934383392
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000069_000130_80.jpg,Lung_Opacity,Lung_Opacity,0.45547088980674744,0.3106638789176941,0.23386523127555847
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000070_000160_764.jpg,Lung_Opacity,Lung_Opacity,0.42539283633232117,0.3972267210483551,0.17738045752048492
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000071_000327_346.jpg,Lung_Opacity,Lung_Opacity,0.5959018468856812,0.2005784660577774,0.20351965725421906
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000072_000313_768.jpg,Lung_Opacity,Lung_Opacity,0.5286627411842346,0.25474661588668823,0.21659062802791595
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000073_000224_184.jpg,Lung_Opacity,Normal,0.32000312209129333,0.4091658294200897,0.2708311080932617
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000074_000096_822.jpg,Lung_Opacity,Lung_Opacity,0.5539146661758423,0.23439955711364746,0.21168574690818787
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000075_000186_625.jpg,Lung_Opacity,Lung_Opacity,0.5713361501693726,0.25450000166893005,0.1741638481616974
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000076_000055_650.jpg,Lung_Opacity,Lung_Opacity,0.39822885394096375,0.3632970154285431,0.23847413063049316
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000077_000283_341.jpg,Lung_Opacity,Lung_Opacity,0.6235362887382507,0.2885313332080841,0.08793237060308456
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000078_000101_390.jpg,Lung_Opacity,Lung_Opacity,0.4035664200782776,0.29532724618911743,0.30110636353492737
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000079_000741_67.jpg,Lung_Opacity,Lung_Opacity,0.6566300392150879,0.16703017055988312,0.17633982002735138
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000080_000030_404.jpg,Lung_Opacity,Lung_Opacity,0.630517303943634,0.20985335111618042,0.15962937474250793
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000081_000090_847.jpg,Lung_Opacity,Lung_Opacity,0.4009367525577545,0.3319803476333618,0.26708289980888367
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000082_000538_463.jpg,Lung_Opacity,Normal,0.37832561135292053,0.42927420139312744,0.19240018725395203
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000083_000505_601.jpg,Lung_Opacity,Lung_Opacity,0.516349732875824,0.17075420916080475,0.31289610266685486
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000084_000164_242.jpg,Lung_Opacity,Normal,0.32526668906211853,0.4037989675998688,0.2709342837333679
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000085_000542_631.jpg,Lung_Opacity,Lung_Opacity,0.5027331113815308,0.3309552073478699,0.1663116067647934
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000086_000292_322.jpg,Lung_Opacity,Normal,0.32553479075431824,0.3957688808441162,0.27869635820388794
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000087_000152_1116.jpg,Lung_Opacity,Normal,0.29129260778427124,0.565193772315979,0.14351357519626617
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000088_000023_596.jpg,Lung_Opacity,Lung_Opacity,0.6063454151153564,0.19703544676303864,0.1966191530227661
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000089_000067_337.jpg,Lung_Opacity,Lung_Opacity,0.44994986057281494,0.2662971019744873,0.28375306725502014
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000090_000435_551.jpg,Lung_Opacity,Lung_Opacity,0.5788769721984863,0.24874261021614075,0.17238041758537292
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000091_000644_41.jpg,Lung_Opacity,Lung_Opacity,0.5504123568534851,0.2538134455680847,0.1957741677761078
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000092_000432_667.jpg,Lung_Opacity,Lung_Opacity,0.6055245399475098,0.20198029279708862,0.1924952119588852
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000093_000135_29.jpg,Lung_Opacity,Normal,0.3809951841831207,0.43534061312675476,0.1836642324924469
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000094_000548_959.jpg,Lung_Opacity,Lung_Opacity,0.49111858010292053,0.18296483159065247,0.3259165585041046
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000095_000034_345.jpg,Lung_Opacity,Lung_Opacity,0.6646566390991211,0.19714221358299255,0.13820116221904755
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000096_000646_190.jpg,Lung_Opacity,Normal,0.3134135603904724,0.36282041668891907,0.3237660229206085
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000097_000159_1057.jpg,Lung_Opacity,Lung_Opacity,0.4395371973514557,0.3280027210712433,0.23246008157730103
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000098_000469_79.jpg,Lung_Opacity,Lung_Opacity,0.432529479265213,0.2817370593547821,0.28573355078697205
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000099_000114_886.jpg,Lung_Opacity,Normal,0.3575458228588104,0.38906151056289673,0.25339269638061523
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000100_000664_733.jpg,Lung_Opacity,Lung_Opacity,0.4501873254776001,0.3836804926395416,0.16613222658634186
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000101_000449_758.jpg,Lung_Opacity,Lung_Opacity,0.44715365767478943,0.33126550912857056,0.2215808480978012
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000102_000552_662.jpg,Lung_Opacity,Lung_Opacity,0.6260724067687988,0.22164376080036163,0.15228387713432312
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000103_000777_212.jpg,Lung_Opacity,Lung_Opacity,0.42846694588661194,0.3505711257457733,0.22096192836761475
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000104_000159_433.jpg,Lung_Opacity,Lung_Opacity,0.4212956428527832,0.3044043183326721,0.2742999792098999
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000105_000334_71.jpg,Lung_Opacity,Lung_Opacity,0.47434288263320923,0.24378959834575653,0.28186744451522827
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000106_000166_437.jpg,Lung_Opacity,Lung_Opacity,0.6748600602149963,0.2316720336675644,0.09346786141395569
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000107_000350_374.jpg,Lung_Opacity,Lung_Opacity,0.48057231307029724,0.2556185722351074,0.2638091444969177
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000108_000146_694.jpg,Lung_Opacity,Normal,0.3328306972980499,0.3760494291782379,0.29111993312835693
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000109_000546_553.jpg,Lung_Opacity,Lung_Opacity,0.3806115984916687,0.34431976079940796,0.2750686705112457
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000110_000429_199.jpg,Lung_Opacity,Lung_Opacity,0.5465602874755859,0.20081773400306702,0.25262191891670227
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000111_000727_902.jpg,Lung_Opacity,Lung_Opacity,0.5957521796226501,0.2500099837779999,0.1542377471923828
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000112_000758_350.jpg,Lung_Opacity,Lung_Opacity,0.4495231807231903,0.3825490176677704,0.16792771220207214
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000113_000333_108.jpg,Lung_Opacity,Normal,0.2618204355239868,0.48563092947006226,0.2525486648082733
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000114_000747_504.jpg,Lung_Opacity,Lung_Opacity,0.592670738697052,0.24902591109275818,0.1583033949136734
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000115_000141_860.jpg,Lung_Opacity,Lung_Opacity,0.7054546475410461,0.11597665399312973,0.17856866121292114
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000116_000143_98.jpg,Lung_Opacity,Lung_Opacity,0.7301960587501526,0.13777995109558105,0.1320239156484604
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000117_000137_687.jpg,Lung_Opacity,Lung_Opacity,0.49804168939590454,0.3197195827960968,0.18223875761032104
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000118_000206_1055.jpg,Lung_Opacity,Lung_Opacity,0.4102243483066559,0.3294717073440552,0.26030394434928894
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000119_000155_414.jpg,Lung_Opacity,Lung_Opacity,0.629709780216217,0.22803692519664764,0.1422533094882965
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000120_000163_232.jpg,Lung_Opacity,Lung_Opacity,0.48151862621307373,0.20969079434871674,0.30879056453704834
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000121_000592_940.jpg,Lung_Opacity,Lung_Opacity,0.5050563216209412,0.32079264521598816,0.17415107786655426
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000122_000466_233.jpg,Lung_Opacity,Lung_Opacity,0.4352499544620514,0.30299779772758484,0.26175224781036377
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000123_000093_178.jpg,Lung_Opacity,Lung_Opacity,0.3802240788936615,0.25130701065063477,0.36846891045570374
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000124_000142_428.jpg,Lung_Opacity,Lung_Opacity,0.4905765652656555,0.21633760631084442,0.29308581352233887
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000125_000393_688.jpg,Lung_Opacity,Normal,0.37954604625701904,0.3823838233947754,0.23807014524936676
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000126_000740_783.jpg,Lung_Opacity,Lung_Opacity,0.48111188411712646,0.3969021737575531,0.12198589742183685
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000127_000600_820.jpg,Lung_Opacity,Lung_Opacity,0.640821635723114,0.23212482035160065,0.1270534247159958
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000128_000161_430.jpg,Lung_Opacity,Lung_Opacity,0.6705998778343201,0.2315962016582489,0.09780402481555939
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000129_000775_533.jpg,Lung_Opacity,Lung_Opacity,0.6084576845169067,0.15906456112861633,0.23247778415679932
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000130_000255_151.jpg,Lung_Opacity,Normal,0.29597949981689453,0.472576767206192,0.23144379258155823
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000131_000153_1113.jpg,Lung_Opacity,Normal,0.35952305793762207,0.4227185547351837,0.21775832772254944
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000132_000088_952.jpg,Lung_Opacity,Normal,0.2871955633163452,0.5404472947120667,0.17235703766345978
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000133_000541_927.jpg,Lung_Opacity,Lung_Opacity,0.4384360909461975,0.3892176151275635,0.1723463088274002
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000134_000704_853.jpg,Lung_Opacity,Lung_Opacity,0.5255890488624573,0.28203198313713074,0.19237898290157318
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000135_000735_248.jpg,Lung_Opacity,Lung_Opacity,0.4354856312274933,0.2599034905433655,0.3046109080314636
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000136_000198_105.jpg,Lung_Opacity,Lung_Opacity,0.6140413284301758,0.18768204748630524,0.19827668368816376
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000137_000778_510.jpg,Lung_Opacity,Lung_Opacity,0.4464833736419678,0.34610646963119507,0.20741020143032074
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000138_000189_116.jpg,Lung_Opacity,Lung_Opacity,0.39850330352783203,0.29532554745674133,0.30617111921310425
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000139_000163_174.jpg,Lung_Opacity,Normal,0.39915189146995544,0.44524919986724854,0.1555989533662796
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000140_000689_494.jpg,Lung_Opacity,Lung_Opacity,0.5217903256416321,0.25015661120414734,0.228053018450737
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000141_000440_61.jpg,Lung_Opacity,Lung_Opacity,0.6276774406433105,0.2341107428073883,0.13821181654930115
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000142_000318_967.jpg,Lung_Opacity,Lung_Opacity,0.4221261739730835,0.3209975063800812,0.2568763494491577
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000143_000148_499.jpg,Lung_Opacity,Normal,0.30992287397384644,0.4546901285648346,0.23538701236248016
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000144_000696_882.jpg,Lung_Opacity,Normal,0.31605178117752075,0.3869137763977051,0.29703447222709656
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000145_000078_1048.jpg,Lung_Opacity,Lung_Opacity,0.6763836145401001,0.19591353833675385,0.12770286202430725
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000146_000326_396.jpg,Lung_Opacity,Lung_Opacity,0.5342488884925842,0.28728097677230835,0.17847014963626862
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000147_000013_895.jpg,Lung_Opacity,Normal,0.3260752260684967,0.4446271061897278,0.22929760813713074
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000148_000569_539.jpg,Lung_Opacity,Lung_Opacity,0.7501357197761536,0.15396304428577423,0.095901258289814
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000149_000132_585.jpg,Lung_Opacity,Lung_Opacity,0.7605412006378174,0.11123237758874893,0.12822644412517548
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000150_000451_140.jpg,Lung_Opacity,Lung_Opacity,0.5998666882514954,0.1727573424577713,0.22737586498260498
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000151_000072_357.jpg,Lung_Opacity,Lung_Opacity,0.5423187613487244,0.2803123891353607,0.1773688793182373
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000152_000407_147.jpg,Lung_Opacity,Lung_Opacity,0.42143914103507996,0.32287317514419556,0.2556876242160797
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000153_000054_567.jpg,Lung_Opacity,Lung_Opacity,0.7092750072479248,0.16375833749771118,0.1269666850566864
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000154_000079_653.jpg,Lung_Opacity,Lung_Opacity,0.5014864802360535,0.3258902132511139,0.17262329161167145
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000155_000476_654.jpg,Lung_Opacity,Lung_Opacity,0.5620585680007935,0.23938365280628204,0.1985577642917633
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000156_000447_172.jpg,Lung_Opacity,Lung_Opacity,0.5265893936157227,0.29491740465164185,0.1784932017326355
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000157_000191_435.jpg,Lung_Opacity,Normal,0.30979785323143005,0.4177210032939911,0.27248117327690125
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000158_000061_168.jpg,Lung_Opacity,Normal,0.356544554233551,0.4022423326969147,0.2412131428718567
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000159_000065_907.jpg,Lung_Opacity,Lung_Opacity,0.3388654589653015,0.32797616720199585,0.33315831422805786
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000160_000077_972.jpg,Lung_Opacity,Lung_Opacity,0.5719506144523621,0.2703668177127838,0.15768253803253174
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000161_000178_590.jpg,Lung_Opacity,Lung_Opacity,0.5855447053909302,0.262893944978714,0.15156133472919464
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000162_000161_146.jpg,Lung_Opacity,Lung_Opacity,0.47927728295326233,0.22976447641849518,0.29095831513404846
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000163_000209_833.jpg,Lung_Opacity,Lung_Opacity,0.5267201066017151,0.25472715497016907,0.21855267882347107
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000164_000285_110.jpg,Lung_Opacity,Lung_Opacity,0.487168550491333,0.3412061035633087,0.17162533104419708
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000165_000457_716.jpg,Lung_Opacity,Lung_Opacity,0.5657929182052612,0.188090518116951,0.2461165487766266
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000166_000501_1069.jpg,Lung_Opacity,Lung_Opacity,0.5030399560928345,0.31864091753959656,0.17831911146640778
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000167_000563_295.jpg,Lung_Opacity,Lung_Opacity,0.36385196447372437,0.3394774794578552,0.296670526266098
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000168_000051_840.jpg,Lung_Opacity,Lung_Opacity,0.4192025661468506,0.23078757524490356,0.35000988841056824
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Lung_Opacity\000169_000228_84.jpg,Lung_Opacity,Viral Pneumonia,0.3728873133659363,0.21807067096233368,0.40904203057289124
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000000_000572_370.jpg,Normal,Normal,0.322658509016037,0.402481347322464,0.2748601734638214
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000001_000835_395.jpg,Normal,Normal,0.3161405622959137,0.40511271357536316,0.27874672412872314
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000002_000127_590.jpg,Normal,Normal,0.32822170853614807,0.3824750781059265,0.28930315375328064
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000003_000202_643.jpg,Normal,Normal,0.3638211786746979,0.405067503452301,0.2311113476753235
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000004_000849_833.jpg,Normal,Lung_Opacity,0.48229849338531494,0.3561151623725891,0.16158640384674072
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000005_000156_158.jpg,Normal,Normal,0.30239924788475037,0.44185033440589905,0.25575047731399536
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000006_000858_628.jpg,Normal,Normal,0.23599985241889954,0.53199702501297,0.2320030778646469
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000007_000759_896.jpg,Normal,Normal,0.2414012849330902,0.5736550688743591,0.18494366109371185
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000008_000054_186.jpg,Normal,Normal,0.31135326623916626,0.4602600634098053,0.22838671505451202
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000009_000795_806.jpg,Normal,Normal,0.24078284204006195,0.3963289260864258,0.3628882169723511
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000010_000277_1097.jpg,Normal,Lung_Opacity,0.5089241862297058,0.31511959433555603,0.17595618963241577
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000011_000141_305.jpg,Normal,Normal,0.31111016869544983,0.45136743783950806,0.23752231895923615
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000012_000199_769.jpg,Normal,Viral Pneumonia,0.22527581453323364,0.3201693296432495,0.45455485582351685
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000013_000237_726.jpg,Normal,Normal,0.25678205490112305,0.42105334997177124,0.3221645653247833
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000014_000133_358.jpg,Normal,Lung_Opacity,0.364702969789505,0.31704291701316833,0.31825411319732666
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000015_000623_208.jpg,Normal,Normal,0.4255240857601166,0.4721391797065735,0.10233677923679352
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000016_000076_749.jpg,Normal,Normal,0.374794065952301,0.4204540252685547,0.2047519087791443
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000017_000092_1174.jpg,Normal,Lung_Opacity,0.4418255686759949,0.3151762783527374,0.24299819767475128
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000018_000286_101.jpg,Normal,Normal,0.35965463519096375,0.37264782190322876,0.2676975429058075
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000019_000238_392.jpg,Normal,Normal,0.31259942054748535,0.4236498773097992,0.26375067234039307
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000020_000836_113.jpg,Normal,Lung_Opacity,0.38715416193008423,0.3752579391002655,0.23758788406848907
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000021_000093_43.jpg,Normal,Normal,0.31189075112342834,0.5130743980407715,0.1750348061323166
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000022_000075_339.jpg,Normal,Lung_Opacity,0.44759681820869446,0.39430737495422363,0.15809577703475952
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000023_000129_684.jpg,Normal,Normal,0.354745090007782,0.4161660671234131,0.22908876836299896
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000024_000453_1228.jpg,Normal,Lung_Opacity,0.4994923174381256,0.24928775429725647,0.2512199282646179
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000025_000671_455.jpg,Normal,Normal,0.3052358627319336,0.42207351326942444,0.27269065380096436
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000026_000051_200.jpg,Normal,Lung_Opacity,0.42368221282958984,0.3864086866378784,0.18990913033485413
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000027_000090_92.jpg,Normal,Normal,0.2609085142612457,0.5464538335800171,0.19263769686222076
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000028_000178_303.jpg,Normal,Normal,0.3323885202407837,0.36796993017196655,0.29964157938957214
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000029_000221_122.jpg,Normal,Normal,0.3103947341442108,0.5157483220100403,0.1738569289445877
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000030_000760_1117.jpg,Normal,Normal,0.29339849948883057,0.514149010181427,0.1924525648355484
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000031_000173_576.jpg,Normal,Viral Pneumonia,0.20816603302955627,0.3194568455219269,0.47237712144851685
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000032_000536_991.jpg,Normal,Normal,0.41215163469314575,0.4572020173072815,0.13064633309841156
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000033_000754_83.jpg,Normal,Normal,0.25971949100494385,0.4300593137741089,0.31022122502326965
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000034_000056_1208.jpg,Normal,Normal,0.3342508375644684,0.3879740834236145,0.2777750492095947
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000035_000253_50.jpg,Normal,Normal,0.30479711294174194,0.4773205518722534,0.21788233518600464
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000036_000541_259.jpg,Normal,Lung_Opacity,0.470897376537323,0.2950977683067322,0.2340049147605896
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000037_000028_319.jpg,Normal,Viral Pneumonia,0.22668148577213287,0.26742416620254517,0.5058943629264832
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000038_000808_610.jpg,Normal,Normal,0.2717236280441284,0.5100888609886169,0.21818751096725464
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000039_000063_1164.jpg,Normal,Normal,0.33962810039520264,0.4420749843120575,0.21829690039157867
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000040_000055_548.jpg,Normal,Normal,0.3475346267223358,0.4337277114391327,0.2187376469373703
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000041_000813_397.jpg,Normal,Normal,0.30052056908607483,0.42751070857048035,0.2719687819480896
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000042_000462_562.jpg,Normal,Normal,0.20587441325187683,0.5319696664810181,0.2621559798717499
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000043_000288_351.jpg,Normal,Normal,0.3634842336177826,0.42710578441619873,0.2094099223613739
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000044_000154_437.jpg,Normal,Normal,0.25978052616119385,0.5506985783576965,0.18952089548110962
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000045_000084_412.jpg,Normal,Normal,0.2627345621585846,0.5176364183425903,0.21962900459766388
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000046_000235_260.jpg,Normal,Normal,0.2626536190509796,0.5511865019798279,0.18615983426570892
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000047_000152_498.jpg,Normal,Lung_Opacity,0.3936030864715576,0.3913300633430481,0.21506693959236145
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000048_000062_905.jpg,Normal,Normal,0.35039588809013367,0.357199490070343,0.2924045920372009
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000049_000111_353.jpg,Normal,Normal,0.3079819977283478,0.4745122492313385,0.21750575304031372
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000050_000526_497.jpg,Normal,Normal,0.27639666199684143,0.37563005089759827,0.3479732275009155
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000051_000336_656.jpg,Normal,Viral Pneumonia,0.18095028400421143,0.4085700511932373,0.41047969460487366
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000052_000558_790.jpg,Normal,Normal,0.3264721632003784,0.4631849229335785,0.21034283936023712
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000053_000152_895.jpg,Normal,Normal,0.2878630459308624,0.42014819383621216,0.2919887602329254
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000054_000121_852.jpg,Normal,Viral Pneumonia,0.3627413809299469,0.24078723788261414,0.3964712917804718
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000055_000749_812.jpg,Normal,Lung_Opacity,0.5889765620231628,0.28298133611679077,0.12804214656352997
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000056_000042_29.jpg,Normal,Normal,0.34554174542427063,0.43594250082969666,0.21851575374603271
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000057_000270_830.jpg,Normal,Normal,0.26932549476623535,0.41158580780029297,0.3190886974334717
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000058_000411_236.jpg,Normal,Lung_Opacity,0.5581405758857727,0.26360803842544556,0.17825137078762054
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000059_000359_448.jpg,Normal,Normal,0.33961331844329834,0.4054555892944336,0.25493109226226807
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000060_000850_48.jpg,Normal,Normal,0.35030272603034973,0.44133639335632324,0.20836086571216583
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000061_000669_74.jpg,Normal,Lung_Opacity,0.5325357913970947,0.2927015721797943,0.17476260662078857
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000062_000084_417.jpg,Normal,Normal,0.35299280285835266,0.37595686316490173,0.2710503935813904
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000063_000184_383.jpg,Normal,Normal,0.36107906699180603,0.3724995255470276,0.2664214074611664
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000064_000269_1078.jpg,Normal,Normal,0.3200612962245941,0.43710553646087646,0.2428331971168518
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000065_000747_924.jpg,Normal,Normal,0.32723721861839294,0.43739500641822815,0.23536783456802368
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000066_000068_461.jpg,Normal,Normal,0.39656829833984375,0.4107174277305603,0.19271428883075714
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000067_000027_1118.jpg,Normal,Normal,0.26974183320999146,0.4227694272994995,0.30748873949050903
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000068_000632_1157.jpg,Normal,Normal,0.26590922474861145,0.5722288489341736,0.16186188161373138
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000069_000080_10.jpg,Normal,Viral Pneumonia,0.23489461839199066,0.3752603828907013,0.38984501361846924
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000070_000198_598.jpg,Normal,Viral Pneumonia,0.1879461258649826,0.1719007045030594,0.640153169631958
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000071_000280_385.jpg,Normal,Normal,0.2770720422267914,0.4823122024536133,0.24061574041843414
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000072_000513_217.jpg,Normal,Normal,0.3376958966255188,0.4597691297531128,0.2025349736213684
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000073_000389_756.jpg,Normal,Normal,0.38124310970306396,0.48156583309173584,0.137191042304039
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000074_000448_1235.jpg,Normal,Normal,0.2942587733268738,0.4220329225063324,0.2837083637714386
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000075_000721_416.jpg,Normal,Normal,0.39599883556365967,0.4087802767753601,0.19522088766098022
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000076_000471_921.jpg,Normal,Normal,0.303376704454422,0.4178979694843292,0.278725266456604
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000077_000586_207.jpg,Normal,Viral Pneumonia,0.2156391590833664,0.26378926634788513,0.5205715894699097
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000078_000142_415.jpg,Normal,Viral Pneumonia,0.23943176865577698,0.262569397687912,0.4979988932609558
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000079_000100_241.jpg,Normal,Lung_Opacity,0.375487744808197,0.33996790647506714,0.28454428911209106
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000080_000016_968.jpg,Normal,Normal,0.308124840259552,0.5164608955383301,0.1754143089056015
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000081_000562_462.jpg,Normal,Normal,0.35187676548957825,0.49548012018203735,0.1526431143283844
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000082_000810_785.jpg,Normal,Normal,0.3137647211551666,0.5261695981025696,0.16006574034690857
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000083_000044_609.jpg,Normal,Normal,0.31811434030532837,0.4258968234062195,0.25598880648612976
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000084_000604_41.jpg,Normal,Normal,0.24887114763259888,0.4782499372959137,0.2728789448738098
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000085_000605_597.jpg,Normal,Normal,0.26940783858299255,0.5674724578857422,0.16311970353126526
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000086_000735_722.jpg,Normal,Lung_Opacity,0.5155027508735657,0.33036336302757263,0.1541338562965393
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000087_000781_359.jpg,Normal,Lung_Opacity,0.4822287857532501,0.33761247992515564,0.18015874922275543
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000088_000485_1214.jpg,Normal,Viral Pneumonia,0.19779033958911896,0.2628094553947449,0.5394002199172974
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000089_000218_375.jpg,Normal,Normal,0.2854766845703125,0.44047242403030396,0.27405083179473877
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000090_000114_710.jpg,Normal,Viral Pneumonia,0.30671438574790955,0.3440430164337158,0.34924256801605225
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000091_000787_110.jpg,Normal,Normal,0.26146891713142395,0.3995898365974426,0.33894121646881104
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000092_000407_210.jpg,Normal,Normal,0.319150447845459,0.4404977262020111,0.2403518408536911
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000093_000618_185.jpg,Normal,Lung_Opacity,0.3662225306034088,0.3485564589500427,0.28522107005119324
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000094_000160_715.jpg,Normal,Normal,0.27449673414230347,0.5306941270828247,0.19480907917022705
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000095_000512_503.jpg,Normal,Normal,0.34516486525535583,0.42346253991127014,0.2313726395368576
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000096_000868_211.jpg,Normal,Normal,0.3630366027355194,0.4223509132862091,0.2146124690771103
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000097_000612_1085.jpg,Normal,Normal,0.3334295451641083,0.4919169247150421,0.17465350031852722
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000098_000707_616.jpg,Normal,Normal,0.2870880961418152,0.5135759115219116,0.1993359923362732
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000099_000029_216.jpg,Normal,Normal,0.38166528940200806,0.4887950122356415,0.12953971326351166
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000100_000151_214.jpg,Normal,Lung_Opacity,0.4155028164386749,0.40800023078918457,0.17649689316749573
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000101_000323_69.jpg,Normal,Normal,0.3457270860671997,0.38477393984794617,0.2694990336894989
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000102_000057_1241.jpg,Normal,Normal,0.2796179950237274,0.5228175520896912,0.19756440818309784
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000103_000589_927.jpg,Normal,Lung_Opacity,0.39440155029296875,0.332491934299469,0.2731064558029175
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000104_000077_144.jpg,Normal,Normal,0.34492409229278564,0.4327670633792877,0.22230879962444305
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000105_000019_372.jpg,Normal,Normal,0.21312448382377625,0.5402070879936218,0.2466684728860855
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000106_000522_618.jpg,Normal,Normal,0.29429081082344055,0.4102698564529419,0.29543933272361755
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000107_000066_473.jpg,Normal,Normal,0.31285232305526733,0.3493445813655853,0.33780309557914734
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000108_000520_447.jpg,Normal,Normal,0.29447034001350403,0.39769086241722107,0.3078387677669525
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000109_000069_1103.jpg,Normal,Lung_Opacity,0.4759897291660309,0.31360405683517456,0.21040615439414978
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000110_000475_844.jpg,Normal,Lung_Opacity,0.4214964210987091,0.31342393159866333,0.26507970690727234
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000111_000293_786.jpg,Normal,Normal,0.3240979015827179,0.44816988706588745,0.22773222625255585
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000112_000144_60.jpg,Normal,Normal,0.3802766501903534,0.4284146726131439,0.1913086473941803
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000113_000493_76.jpg,Normal,Normal,0.3146757483482361,0.494169145822525,0.19115513563156128
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000114_000783_960.jpg,Normal,Normal,0.27150896191596985,0.4627334475517273,0.26575756072998047
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000115_000161_1221.jpg,Normal,Normal,0.2768568694591522,0.41193899512290955,0.3112041652202606
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000116_000358_1168.jpg,Normal,Normal,0.27360108494758606,0.45013925433158875,0.2762596011161804
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000117_000348_1237.jpg,Normal,Normal,0.27718809247016907,0.5114361643791199,0.21137571334838867
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000118_000368_743.jpg,Normal,Normal,0.35704052448272705,0.36585935950279236,0.2771000564098358
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000119_000097_424.jpg,Normal,Normal,0.36613962054252625,0.43591365218162537,0.19794675707817078
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000120_000843_520.jpg,Normal,Normal,0.31304776668548584,0.4455905854701996,0.24136163294315338
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000121_000025_478.jpg,Normal,Normal,0.25869080424308777,0.5923699140548706,0.14893925189971924
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000122_000500_532.jpg,Normal,Normal,0.3086777627468109,0.354050874710083,0.3372713625431061
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000123_000298_117.jpg,Normal,Viral Pneumonia,0.19477392733097076,0.21804174780845642,0.5871843099594116
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000124_000007_198.jpg,Normal,Normal,0.23118646442890167,0.47958335280418396,0.28923022747039795
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000125_000767_80.jpg,Normal,Normal,0.34748074412345886,0.47655239701271057,0.17596690356731415
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000126_000734_54.jpg,Normal,Lung_Opacity,0.43295836448669434,0.286842405796051,0.280199259519577
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000127_000600_234.jpg,Normal,Lung_Opacity,0.4620327353477478,0.32800328731536865,0.20996396243572235
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000128_000114_591.jpg,Normal,Normal,0.35422244668006897,0.415484219789505,0.23029334843158722
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000129_000664_747.jpg,Normal,Normal,0.3398938477039337,0.4035801887512207,0.25652599334716797
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000130_000094_131.jpg,Normal,Normal,0.29843729734420776,0.43294909596443176,0.2686136066913605
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000131_000059_142.jpg,Normal,Normal,0.28182312846183777,0.418251097202301,0.2999257445335388
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000132_000613_680.jpg,Normal,Normal,0.25061506032943726,0.568716824054718,0.18066805601119995
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000133_000340_754.jpg,Normal,Normal,0.33694735169410706,0.3702327311038971,0.29281994700431824
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000134_000033_805.jpg,Normal,Normal,0.34913161396980286,0.3687063455581665,0.28216198086738586
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000135_000164_1183.jpg,Normal,Viral Pneumonia,0.3049457371234894,0.3101097643375397,0.38494446873664856
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000136_000201_849.jpg,Normal,Viral Pneumonia,0.23887725174427032,0.3056463599205017,0.45547643303871155
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000137_000013_953.jpg,Normal,Normal,0.19355498254299164,0.518135130405426,0.28830987215042114
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000138_000185_440.jpg,Normal,Viral Pneumonia,0.20731376111507416,0.22445768117904663,0.5682286024093628
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000139_000465_486.jpg,Normal,Lung_Opacity,0.4658893942832947,0.3183051347732544,0.21580547094345093
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000140_000588_528.jpg,Normal,Normal,0.2944753170013428,0.5504928827285767,0.15503178536891937
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000141_000480_441.jpg,Normal,Normal,0.3715326488018036,0.438968688249588,0.1894986778497696
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000142_000140_825.jpg,Normal,Normal,0.2684110403060913,0.5351871252059937,0.19640173017978668
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000143_000073_946.jpg,Normal,Normal,0.308826744556427,0.5192766189575195,0.17189672589302063
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000144_000046_121.jpg,Normal,Lung_Opacity,0.5103842616081238,0.32885465025901794,0.1607610434293747
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000145_000124_42.jpg,Normal,Viral Pneumonia,0.29367977380752563,0.348278671503067,0.35804158449172974
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000146_000648_800.jpg,Normal,Normal,0.24657617509365082,0.46097537875175476,0.2924484312534332
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000147_000778_104.jpg,Normal,Lung_Opacity,0.5478487610816956,0.23718509078025818,0.21496610343456268
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000148_000030_558.jpg,Normal,Viral Pneumonia,0.20974965393543243,0.31760141253471375,0.4726489186286926
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000149_000672_831.jpg,Normal,Lung_Opacity,0.5642587542533875,0.3478829562664032,0.08785827457904816
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000150_000164_9.jpg,Normal,Lung_Opacity,0.4854235351085663,0.3027600347995758,0.21181641519069672
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000151_000814_838.jpg,Normal,Normal,0.3876211941242218,0.4171818196773529,0.19519691169261932
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000152_000693_699.jpg,Normal,Normal,0.3459623456001282,0.453968346118927,0.20006930828094482
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000153_000542_36.jpg,Normal,Normal,0.3508116602897644,0.41869133710861206,0.2304970622062683
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000154_000086_449.jpg,Normal,Viral Pneumonia,0.19346055388450623,0.4001922309398651,0.40634724497795105
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000155_000153_707.jpg,Normal,Normal,0.24862262606620789,0.5213680267333984,0.23000940680503845
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000156_000316_500.jpg,Normal,Lung_Opacity,0.4074898362159729,0.3918006718158722,0.2007095068693161
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000157_000839_883.jpg,Normal,Normal,0.3159084618091583,0.4423162043094635,0.24177540838718414
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000158_000295_465.jpg,Normal,Normal,0.284902960062027,0.455510675907135,0.2595863938331604
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000159_000031_15.jpg,Normal,Normal,0.2828347682952881,0.5024316906929016,0.2147335261106491
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000160_000060_1197.jpg,Normal,Normal,0.2550846338272095,0.5615789294242859,0.18333643674850464
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000161_000015_434.jpg,Normal,Normal,0.31538328528404236,0.3932685852050781,0.29134804010391235
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000162_000204_826.jpg,Normal,Normal,0.28650227189064026,0.5012707710266113,0.2122269570827484
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000163_000026_386.jpg,Normal,Normal,0.28734487295150757,0.5086846351623535,0.2039705365896225
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000164_000205_619.jpg,Normal,Normal,0.28495001792907715,0.5300108194351196,0.18503925204277039
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000165_000679_170.jpg,Normal,Normal,0.22576221823692322,0.4555872976779938,0.3186504542827606
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000166_000146_457.jpg,Normal,Normal,0.35562047362327576,0.42797356843948364,0.21640600264072418
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000167_000153_1238.jpg,Normal,Lung_Opacity,0.4018455147743225,0.32986152172088623,0.26829299330711365
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000168_000258_33.jpg,Normal,Normal,0.35449233651161194,0.44151395559310913,0.20399366319179535
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000169_000075_1189.jpg,Normal,Lung_Opacity,0.41138288378715515,0.37955033779144287,0.2090667337179184
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000170_000139_1159.jpg,Normal,Viral Pneumonia,0.28891679644584656,0.252662718296051,0.45842042565345764
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000171_000311_120.jpg,Normal,Normal,0.2904182970523834,0.47528359293937683,0.23429808020591736
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000172_000790_780.jpg,Normal,Normal,0.37380945682525635,0.441823810338974,0.18436677753925323
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000173_000780_810.jpg,Normal,Viral Pneumonia,0.24729257822036743,0.30972015857696533,0.44298723340034485
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000174_000093_1072.jpg,Normal,Viral Pneumonia,0.2020847648382187,0.2162046581506729,0.5817105174064636
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000175_000651_227.jpg,Normal,Normal,0.29697516560554504,0.5534094572067261,0.14961540699005127
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000176_000089_293.jpg,Normal,Normal,0.3561721444129944,0.4630585312843323,0.18076935410499573
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000177_000841_834.jpg,Normal,Viral Pneumonia,0.2607651948928833,0.296342134475708,0.4428926408290863
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000178_000478_1116.jpg,Normal,Lung_Opacity,0.38944247364997864,0.37622612714767456,0.234331414103508
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000179_000784_647.jpg,Normal,Lung_Opacity,0.5140764713287354,0.2661989629268646,0.219724640250206
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000180_000109_723.jpg,Normal,Normal,0.29653626680374146,0.4751666486263275,0.22829711437225342
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000181_000489_706.jpg,Normal,Normal,0.3544016182422638,0.4627765417098999,0.18282181024551392
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000182_000386_529.jpg,Normal,Viral Pneumonia,0.34784993529319763,0.2641434967517853,0.3880065381526947
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000183_000659_1050.jpg,Normal,Lung_Opacity,0.5589334964752197,0.25198787450790405,0.1890786737203598
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000184_000057_692.jpg,Normal,Viral Pneumonia,0.24817948043346405,0.2631198465824127,0.4887006878852844
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000185_000772_1187.jpg,Normal,Lung_Opacity,0.43172338604927063,0.39612215757369995,0.1721544712781906
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000186_000050_347.jpg,Normal,Normal,0.3154497742652893,0.41935431957244873,0.2651958763599396
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Normal\000187_000068_442.jpg,Normal,Normal,0.29049789905548096,0.39539384841918945,0.3141081631183624
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000000_000664_776.jpg,Viral Pneumonia,Viral Pneumonia,0.21383006870746613,0.20908866822719574,0.5770812034606934
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000001_000470_639.jpg,Viral Pneumonia,Viral Pneumonia,0.19169007241725922,0.1348530501127243,0.6734569072723389
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000002_000749_51.jpg,Viral Pneumonia,Viral Pneumonia,0.32688599824905396,0.24521517753601074,0.4278988242149353
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000003_000166_218.jpg,Viral Pneumonia,Viral Pneumonia,0.19179090857505798,0.15005333721637726,0.6581557393074036
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000004_000088_88.jpg,Viral Pneumonia,Viral Pneumonia,0.16342635452747345,0.1910785436630249,0.6454950571060181
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000005_000115_333.jpg,Viral Pneumonia,Viral Pneumonia,0.1373848021030426,0.13342341780662537,0.7291918396949768
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000006_000059_502.jpg,Viral Pneumonia,Viral Pneumonia,0.175882488489151,0.16037441790103912,0.6637430787086487
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000007_000197_633.jpg,Viral Pneumonia,Viral Pneumonia,0.1834062784910202,0.19281427562236786,0.6237794756889343
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000008_000280_367.jpg,Viral Pneumonia,Viral Pneumonia,0.3301611840724945,0.17697766423225403,0.49286121129989624
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000009_000480_310.jpg,Viral Pneumonia,Viral Pneumonia,0.20935505628585815,0.20064932107925415,0.5899956822395325
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000010_000517_915.jpg,Viral Pneumonia,Viral Pneumonia,0.32038334012031555,0.22646738588809967,0.45314928889274597
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000011_000102_837.jpg,Viral Pneumonia,Viral Pneumonia,0.1932355761528015,0.1719810515642166,0.6347833275794983
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000012_000137_820.jpg,Viral Pneumonia,Viral Pneumonia,0.14459040760993958,0.17379611730575562,0.6816135048866272
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000013_000142_378.jpg,Viral Pneumonia,Viral Pneumonia,0.20489154756069183,0.2822783887386322,0.5128300786018372
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000014_000506_913.jpg,Viral Pneumonia,Viral Pneumonia,0.29440921545028687,0.19907864928245544,0.5065121650695801
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000015_000537_619.jpg,Viral Pneumonia,Viral Pneumonia,0.17958778142929077,0.19696706533432007,0.6234451532363892
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000016_000099_261.jpg,Viral Pneumonia,Viral Pneumonia,0.18881088495254517,0.22695763409137726,0.584231436252594
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000017_000657_196.jpg,Viral Pneumonia,Viral Pneumonia,0.21051491796970367,0.22696922719478607,0.5625158548355103
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000018_000466_191.jpg,Viral Pneumonia,Viral Pneumonia,0.18355540931224823,0.2871007025241852,0.529343843460083
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000019_000292_346.jpg,Viral Pneumonia,Viral Pneumonia,0.156632199883461,0.1545724719762802,0.6887953281402588
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000020_000344_135.jpg,Viral Pneumonia,Viral Pneumonia,0.21020948886871338,0.1292600780725479,0.6605304479598999
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000021_000018_6.jpg,Viral Pneumonia,Viral Pneumonia,0.1694745272397995,0.1592041403055191,0.6713212728500366
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000022_000109_645.jpg,Viral Pneumonia,Viral Pneumonia,0.2878071367740631,0.283766508102417,0.4284263551235199
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000023_000618_339.jpg,Viral Pneumonia,Viral Pneumonia,0.29907435178756714,0.22607745230197906,0.4748481214046478
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000024_000582_460.jpg,Viral Pneumonia,Viral Pneumonia,0.15966768562793732,0.17578241229057312,0.6645498871803284
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000025_000306_631.jpg,Viral Pneumonia,Viral Pneumonia,0.1563413441181183,0.11936721205711365,0.7242914438247681
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000026_000009_1020.jpg,Viral Pneumonia,Viral Pneumonia,0.24871620535850525,0.29975390434265137,0.4515298306941986
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000027_000139_890.jpg,Viral Pneumonia,Viral Pneumonia,0.21340946853160858,0.22377148270606995,0.5628190636634827
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000028_000129_996.jpg,Viral Pneumonia,Viral Pneumonia,0.25022047758102417,0.21728642284870148,0.5324930548667908
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000029_000297_935.jpg,Viral Pneumonia,Viral Pneumonia,0.19428308308124542,0.1791660338640213,0.6265509128570557
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000030_000016_491.jpg,Viral Pneumonia,Viral Pneumonia,0.1671467274427414,0.14392909407615662,0.6889241933822632
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000031_000125_545.jpg,Viral Pneumonia,Viral Pneumonia,0.1673121452331543,0.24486024677753448,0.5878276228904724
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000032_000767_505.jpg,Viral Pneumonia,Viral Pneumonia,0.23555956780910492,0.23850704729557037,0.5259334444999695
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000033_000048_858.jpg,Viral Pneumonia,Viral Pneumonia,0.1527678221464157,0.1308700293302536,0.7163621783256531
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000034_000190_983.jpg,Viral Pneumonia,Viral Pneumonia,0.33339810371398926,0.28713470697402954,0.3794671893119812
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000035_000508_160.jpg,Viral Pneumonia,Viral Pneumonia,0.2258266657590866,0.33488908410072327,0.4392842948436737
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000036_000037_1051.jpg,Viral Pneumonia,Viral Pneumonia,0.2804270088672638,0.18536916375160217,0.5342038869857788
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000037_000407_121.jpg,Viral Pneumonia,Viral Pneumonia,0.15618038177490234,0.15210461616516113,0.6917149424552917
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000038_000087_514.jpg,Viral Pneumonia,Viral Pneumonia,0.1653381586074829,0.22435937821865082,0.6103024482727051
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000039_000037_969.jpg,Viral Pneumonia,Viral Pneumonia,0.3314655125141144,0.20776709914207458,0.4607674181461334
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000040_000135_856.jpg,Viral Pneumonia,Viral Pneumonia,0.20910464227199554,0.30285772681236267,0.488037645816803
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000041_000024_564.jpg,Viral Pneumonia,Viral Pneumonia,0.21186327934265137,0.1344079077243805,0.6537288427352905
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000042_000180_109.jpg,Viral Pneumonia,Viral Pneumonia,0.13746093213558197,0.15166668593883514,0.7108723521232605
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000043_000151_780.jpg,Viral Pneumonia,Viral Pneumonia,0.29616960883140564,0.16215072572231293,0.5416797399520874
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000044_000153_821.jpg,Viral Pneumonia,Viral Pneumonia,0.309822678565979,0.1649119108915329,0.5252654552459717
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000045_000428_58.jpg,Viral Pneumonia,Viral Pneumonia,0.259657621383667,0.20425622165203094,0.5360861420631409
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000046_000179_1004.jpg,Viral Pneumonia,Viral Pneumonia,0.3285537660121918,0.23026074469089508,0.44118547439575195
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000047_000011_473.jpg,Viral Pneumonia,Viral Pneumonia,0.1604613959789276,0.20533156394958496,0.6342070698738098
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000048_000003_682.jpg,Viral Pneumonia,Viral Pneumonia,0.1695241630077362,0.14319932460784912,0.6872764825820923
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000049_000154_1032.jpg,Viral Pneumonia,Viral Pneumonia,0.20470376312732697,0.19288426637649536,0.6024119853973389
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000050_000027_1006.jpg,Viral Pneumonia,Viral Pneumonia,0.16248701512813568,0.1704438179731369,0.667069137096405
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000051_000101_844.jpg,Viral Pneumonia,Viral Pneumonia,0.33263686299324036,0.2324887365102768,0.43487435579299927
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000052_000741_150.jpg,Viral Pneumonia,Viral Pneumonia,0.25505176186561584,0.19651058316230774,0.5484377145767212
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000053_000757_68.jpg,Viral Pneumonia,Viral Pneumonia,0.338015079498291,0.19592654705047607,0.4660583734512329
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000054_000548_1013.jpg,Viral Pneumonia,Viral Pneumonia,0.35769128799438477,0.1922869086265564,0.4500218629837036
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000055_000237_685.jpg,Viral Pneumonia,Viral Pneumonia,0.23126550018787384,0.2709161639213562,0.49781832098960876
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000056_000588_234.jpg,Viral Pneumonia,Viral Pneumonia,0.22917449474334717,0.19250458478927612,0.5783209800720215
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000057_000668_686.jpg,Viral Pneumonia,Viral Pneumonia,0.1500810831785202,0.17884965240955353,0.6710692644119263
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000058_000091_335.jpg,Viral Pneumonia,Viral Pneumonia,0.2303752601146698,0.24561339616775513,0.5240113139152527
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000059_000018_507.jpg,Viral Pneumonia,Viral Pneumonia,0.2983064353466034,0.17148904502391815,0.5302045345306396
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000060_000162_1010.jpg,Viral Pneumonia,Viral Pneumonia,0.23873457312583923,0.19191008806228638,0.569355309009552
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000061_000060_911.jpg,Viral Pneumonia,Viral Pneumonia,0.24190516769886017,0.22106729447841644,0.5370275974273682
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000062_000662_497.jpg,Viral Pneumonia,Viral Pneumonia,0.24445846676826477,0.11854344606399536,0.6369980573654175
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000063_000293_590.jpg,Viral Pneumonia,Viral Pneumonia,0.299154669046402,0.2253168821334839,0.47552844882011414
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000064_000329_756.jpg,Viral Pneumonia,Viral Pneumonia,0.09625393897294998,0.16311115026474,0.7406349778175354
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000065_000295_859.jpg,Viral Pneumonia,Viral Pneumonia,0.17949029803276062,0.21924932301044464,0.6012603044509888
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000066_000079_865.jpg,Viral Pneumonia,Viral Pneumonia,0.2840648293495178,0.2392285019159317,0.4767065942287445
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000067_000005_353.jpg,Viral Pneumonia,Viral Pneumonia,0.1867213398218155,0.2004111111164093,0.6128675937652588
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000068_000204_49.jpg,Viral Pneumonia,Viral Pneumonia,0.28633609414100647,0.2876279950141907,0.42603597044944763
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000069_000667_735.jpg,Viral Pneumonia,Viral Pneumonia,0.28137409687042236,0.24490255117416382,0.4737233519554138
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000070_000489_847.jpg,Viral Pneumonia,Viral Pneumonia,0.23537252843379974,0.1543693244457245,0.6102581024169922
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000071_000488_733.jpg,Viral Pneumonia,Viral Pneumonia,0.2705698013305664,0.28899136185646057,0.440438836812973
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000072_000131_225.jpg,Viral Pneumonia,Viral Pneumonia,0.3390013873577118,0.16302721202373505,0.4979713261127472
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000073_000133_249.jpg,Viral Pneumonia,Viral Pneumonia,0.23191231489181519,0.3007470667362213,0.4673405587673187
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000074_000025_531.jpg,Viral Pneumonia,Viral Pneumonia,0.17881536483764648,0.1680113524198532,0.6531733274459839
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000075_000669_140.jpg,Viral Pneumonia,Lung_Opacity,0.4436134099960327,0.18786166608333588,0.368524968624115
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000076_000417_478.jpg,Viral Pneumonia,Viral Pneumonia,0.11470162123441696,0.151902437210083,0.7333959937095642
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000077_000108_153.jpg,Viral Pneumonia,Viral Pneumonia,0.22338910400867462,0.2601664960384369,0.5164443850517273
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000078_000019_427.jpg,Viral Pneumonia,Viral Pneumonia,0.20391617715358734,0.15115803480148315,0.6449258327484131
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000079_000122_91.jpg,Viral Pneumonia,Viral Pneumonia,0.25124457478523254,0.21977795660495758,0.5289775133132935
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000080_000564_220.jpg,Viral Pneumonia,Viral Pneumonia,0.27077174186706543,0.2585664391517639,0.47066178917884827
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000081_000055_500.jpg,Viral Pneumonia,Viral Pneumonia,0.21346081793308258,0.18166011571884155,0.6048790812492371
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000082_000005_755.jpg,Viral Pneumonia,Viral Pneumonia,0.14710453152656555,0.2233845591545105,0.6295108795166016
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000083_000140_866.jpg,Viral Pneumonia,Viral Pneumonia,0.18283836543560028,0.1783616840839386,0.6388000249862671
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000084_000020_654.jpg,Viral Pneumonia,Viral Pneumonia,0.16856293380260468,0.18208181858062744,0.6493552327156067
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000085_000698_790.jpg,Viral Pneumonia,Viral Pneumonia,0.23916475474834442,0.20928242802619934,0.5515528321266174
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000086_000090_770.jpg,Viral Pneumonia,Viral Pneumonia,0.25593042373657227,0.22752228379249573,0.5165473222732544
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000087_000484_953.jpg,Viral Pneumonia,Viral Pneumonia,0.17638227343559265,0.1587630957365036,0.6648546457290649
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000088_000735_395.jpg,Viral Pneumonia,Viral Pneumonia,0.1509280800819397,0.15354056656360626,0.6955313086509705
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000089_000339_476.jpg,Viral Pneumonia,Viral Pneumonia,0.20113885402679443,0.1744662970304489,0.6243948340415955
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000090_000424_612.jpg,Viral Pneumonia,Viral Pneumonia,0.15122634172439575,0.14153750240802765,0.7072361707687378
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000091_000102_274.jpg,Viral Pneumonia,Viral Pneumonia,0.2196180671453476,0.2346939593553543,0.5456879734992981
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000092_000053_525.jpg,Viral Pneumonia,Viral Pneumonia,0.31190651655197144,0.27080613374710083,0.41728734970092773
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000093_000477_436.jpg,Viral Pneumonia,Viral Pneumonia,0.21299046277999878,0.24634596705436707,0.5406635403633118
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000094_000463_768.jpg,Viral Pneumonia,Viral Pneumonia,0.22903133928775787,0.2944885194301605,0.4764801263809204
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000095_000103_52.jpg,Viral Pneumonia,Viral Pneumonia,0.24677619338035583,0.2934374511241913,0.4597862958908081
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000096_000158_455.jpg,Viral Pneumonia,Viral Pneumonia,0.3815224766731262,0.18329353630542755,0.43518397212028503
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000097_000491_227.jpg,Viral Pneumonia,Viral Pneumonia,0.1860387921333313,0.18697454035282135,0.6269866824150085
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000098_000223_1077.jpg,Viral Pneumonia,Viral Pneumonia,0.2514815628528595,0.20149341225624084,0.5470249652862549
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000099_000282_937.jpg,Viral Pneumonia,Viral Pneumonia,0.269973486661911,0.2598593533039093,0.4701671600341797
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000100_000557_783.jpg,Viral Pneumonia,Viral Pneumonia,0.17458418011665344,0.2207028716802597,0.6047129034996033
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000101_000556_904.jpg,Viral Pneumonia,Viral Pneumonia,0.14110475778579712,0.16334928572177887,0.6955459117889404
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000102_000414_71.jpg,Viral Pneumonia,Viral Pneumonia,0.15750765800476074,0.1871722936630249,0.6553200483322144
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000103_000439_114.jpg,Viral Pneumonia,Viral Pneumonia,0.1705966293811798,0.1732209473848343,0.6561824083328247
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000104_000049_850.jpg,Viral Pneumonia,Viral Pneumonia,0.1647956222295761,0.21774451434612274,0.6174598336219788
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000105_000526_955.jpg,Viral Pneumonia,Viral Pneumonia,0.29576054215431213,0.20169265568256378,0.5025467872619629
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000106_000137_914.jpg,Viral Pneumonia,Viral Pneumonia,0.26627159118652344,0.3524692952632904,0.38125911355018616
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000107_000710_72.jpg,Viral Pneumonia,Viral Pneumonia,0.2177087813615799,0.22139810025691986,0.5608931183815002
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000108_000161_407.jpg,Viral Pneumonia,Viral Pneumonia,0.2225094586610794,0.21561303734779358,0.5618774890899658
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000109_000117_539.jpg,Viral Pneumonia,Viral Pneumonia,0.14598475396633148,0.1538512408733368,0.7001640200614929
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000110_000086_258.jpg,Viral Pneumonia,Viral Pneumonia,0.1858159303665161,0.2635287344455719,0.5506553649902344
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000111_000595_861.jpg,Viral Pneumonia,Viral Pneumonia,0.12977392971515656,0.16684633493423462,0.70337975025177
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000112_000300_19.jpg,Viral Pneumonia,Viral Pneumonia,0.1921231895685196,0.2330446094274521,0.5748321413993835
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000113_000707_962.jpg,Viral Pneumonia,Viral Pneumonia,0.1897488832473755,0.18975205719470978,0.6204990744590759
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000114_000039_429.jpg,Viral Pneumonia,Viral Pneumonia,0.18561501801013947,0.18256458640098572,0.6318203210830688
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000115_000008_680.jpg,Viral Pneumonia,Viral Pneumonia,0.20597892999649048,0.27550557255744934,0.5185155868530273
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000116_000250_141.jpg,Viral Pneumonia,Viral Pneumonia,0.2793707549571991,0.17155742645263672,0.5490718483924866
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000117_000590_995.jpg,Viral Pneumonia,Viral Pneumonia,0.11829786002635956,0.12877213954925537,0.7529300451278687
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000118_000561_875.jpg,Viral Pneumonia,Viral Pneumonia,0.29314541816711426,0.13190346956253052,0.5749511122703552
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000119_000715_208.jpg,Viral Pneumonia,Viral Pneumonia,0.11399461328983307,0.07785847783088684,0.8081469535827637
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000120_000050_99.jpg,Viral Pneumonia,Viral Pneumonia,0.2085639089345932,0.22099179029464722,0.5704442858695984
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000121_000650_184.jpg,Viral Pneumonia,Viral Pneumonia,0.27364298701286316,0.33797526359558105,0.38838180899620056
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000122_000069_192.jpg,Viral Pneumonia,Viral Pneumonia,0.20039881765842438,0.19090764224529266,0.608693540096283
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000123_000141_390.jpg,Viral Pneumonia,Viral Pneumonia,0.26994290947914124,0.20364201068878174,0.5264150500297546
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000124_000592_877.jpg,Viral Pneumonia,Viral Pneumonia,0.251104474067688,0.1936395913362503,0.5552559494972229
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000125_000610_440.jpg,Viral Pneumonia,Viral Pneumonia,0.15263515710830688,0.15757544338703156,0.689789354801178
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000126_000461_119.jpg,Viral Pneumonia,Viral Pneumonia,0.2804917097091675,0.1768086850643158,0.5426996350288391
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000127_000612_784.jpg,Viral Pneumonia,Viral Pneumonia,0.19538317620754242,0.19371044635772705,0.6109064221382141
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000128_000572_906.jpg,Viral Pneumonia,Viral Pneumonia,0.0965733453631401,0.08416431397199631,0.8192623257637024
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000129_000505_403.jpg,Viral Pneumonia,Lung_Opacity,0.40934479236602783,0.23513413965702057,0.3555210530757904
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000130_000394_711.jpg,Viral Pneumonia,Viral Pneumonia,0.29970690608024597,0.24629426002502441,0.453998863697052
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000131_000059_1080.jpg,Viral Pneumonia,Viral Pneumonia,0.2570972442626953,0.24816258251667023,0.4947401285171509
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000132_000542_404.jpg,Viral Pneumonia,Viral Pneumonia,0.21136212348937988,0.14799313247203827,0.6406447291374207
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000133_000726_766.jpg,Viral Pneumonia,Viral Pneumonia,0.24413034319877625,0.31719422340393066,0.4386754035949707
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000134_000702_815.jpg,Viral Pneumonia,Viral Pneumonia,0.2240283042192459,0.17361395061016083,0.6023576855659485
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000135_000009_26.jpg,Viral Pneumonia,Viral Pneumonia,0.25133389234542847,0.2540510594844818,0.4946150481700897
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000136_000355_738.jpg,Viral Pneumonia,Viral Pneumonia,0.1733279526233673,0.2057562619447708,0.6209158301353455
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000137_000152_587.jpg,Viral Pneumonia,Viral Pneumonia,0.10857968032360077,0.12530404329299927,0.766116201877594
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000138_000002_356.jpg,Viral Pneumonia,Viral Pneumonia,0.270671546459198,0.28036633133888245,0.44896215200424194
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000139_000047_17.jpg,Viral Pneumonia,Viral Pneumonia,0.27223625779151917,0.17316898703575134,0.5545947551727295
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000140_000666_526.jpg,Viral Pneumonia,Viral Pneumonia,0.16864794492721558,0.19785386323928833,0.6334982514381409
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000141_000425_560.jpg,Viral Pneumonia,Viral Pneumonia,0.2035006582736969,0.26064372062683105,0.5358555912971497
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000142_000132_496.jpg,Viral Pneumonia,Viral Pneumonia,0.34082114696502686,0.21900059282779694,0.440178245306015
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000143_000283_642.jpg,Viral Pneumonia,Viral Pneumonia,0.2538292109966278,0.1911819577217102,0.5549888610839844
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000144_000127_797.jpg,Viral Pneumonia,Viral Pneumonia,0.25734493136405945,0.337664932012558,0.4049900770187378
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000145_000033_699.jpg,Viral Pneumonia,Viral Pneumonia,0.27655962109565735,0.2800326943397522,0.44340768456459045
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000146_000096_993.jpg,Viral Pneumonia,Viral Pneumonia,0.18907305598258972,0.2162516713142395,0.5946753025054932
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000147_000071_819.jpg,Viral Pneumonia,Viral Pneumonia,0.2189100980758667,0.17961382865905762,0.6014761328697205
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000148_000418_207.jpg,Viral Pneumonia,Viral Pneumonia,0.2642101049423218,0.1987936794757843,0.5369961261749268
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000149_000076_703.jpg,Viral Pneumonia,Viral Pneumonia,0.24242307245731354,0.2557761073112488,0.5018008351325989
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000150_000311_152.jpg,Viral Pneumonia,Viral Pneumonia,0.21630413830280304,0.19067412614822388,0.5930217504501343
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000151_000088_655.jpg,Viral Pneumonia,Viral Pneumonia,0.2146984189748764,0.23803384602069855,0.547267735004425
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000152_000643_723.jpg,Viral Pneumonia,Viral Pneumonia,0.20083312690258026,0.22904057800769806,0.5701262950897217
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000153_000135_237.jpg,Viral Pneumonia,Viral Pneumonia,0.33889055252075195,0.1714850217103958,0.4896244406700134
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000154_000038_1044.jpg,Viral Pneumonia,Viral Pneumonia,0.20103050768375397,0.27028611302375793,0.5286834239959717
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000155_000391_100.jpg,Viral Pneumonia,Viral Pneumonia,0.298811674118042,0.1947753131389618,0.5064131021499634
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000156_000225_1079.jpg,Viral Pneumonia,Viral Pneumonia,0.23926976323127747,0.1838349848985672,0.5768952369689941
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000157_000064_331.jpg,Viral Pneumonia,Viral Pneumonia,0.2114311009645462,0.2656567394733429,0.5229121446609497
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000158_000497_1096.jpg,Viral Pneumonia,Viral Pneumonia,0.2746676802635193,0.26689937710762024,0.45843297243118286
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000159_000303_562.jpg,Viral Pneumonia,Viral Pneumonia,0.1896391063928604,0.23146069049835205,0.578900158405304
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000160_000009_867.jpg,Viral Pneumonia,Viral Pneumonia,0.27897948026657104,0.16649660468101501,0.5545238852500916
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000161_000143_262.jpg,Viral Pneumonia,Viral Pneumonia,0.2584303915500641,0.25196558237075806,0.48960408568382263
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000162_000350_411.jpg,Viral Pneumonia,Viral Pneumonia,0.15835332870483398,0.16003017127513885,0.681616485118866
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000163_000051_872.jpg,Viral Pneumonia,Viral Pneumonia,0.2836027145385742,0.3359426259994507,0.3804546594619751
+D:\Pavani\Research Project\Project\data\lung_xray_split_clean\test\Viral Pneumonia\000164_000105_648.jpg,Viral Pneumonia,Viral Pneumonia,0.24865590035915375,0.21037834882736206,0.5409657955169678

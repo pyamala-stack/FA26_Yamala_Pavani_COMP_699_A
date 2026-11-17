@@ -1,0 +1,7 @@
+{
+  "model": "resnet50",
+  "completed_epochs": 1,
+  "best_validation_loss": 0.7530369980257141,
+  "total_training_time_seconds": 639.2705055000001,
+  "checkpoint": "D:\\Pavani\\Research Project\\Project\\outputs\\experiments\\resnet50\\best_model.pt"
+}
