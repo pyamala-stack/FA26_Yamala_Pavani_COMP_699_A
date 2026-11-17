@@ -1,0 +1,22 @@
+{
+  "model": "densenet121",
+  "dataset": "D:\\Pavani\\Research Project\\Project\\data\\lung_xray_split_clean",
+  "class_names": [
+    "Lung_Opacity",
+    "Normal",
+    "Viral Pneumonia"
+  ],
+  "image_size": 224,
+  "epochs": 1,
+  "batch_size": 4,
+  "learning_rate": 0.0001,
+  "optimizer": "Adam",
+  "loss_function": "CrossEntropyLoss",
+  "pretrained_weights": true,
+  "training_method": "Frozen pretrained backbone; train classifier only",
+  "trainable_parameters": 3075,
+  "seed": 42,
+  "device": "cpu",
+  "training_images": 2428,
+  "validation_images": 519
+}

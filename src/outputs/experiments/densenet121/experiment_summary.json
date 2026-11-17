@@ -1,0 +1,7 @@
+{
+  "model": "densenet121",
+  "completed_epochs": 1,
+  "best_validation_loss": 0.7217684244604239,
+  "total_training_time_seconds": 597.1662003000001,
+  "checkpoint": "D:\\Pavani\\Research Project\\Project\\outputs\\experiments\\densenet121\\best_model.pt"
+}
