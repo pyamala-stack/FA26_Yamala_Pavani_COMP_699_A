@@ -1,357 +1,322 @@
 # Comparative Study of Explainable AI Models for Chest X-ray Classification
 
-## Project Overview
+## Project overview
 
-This project compares two pretrained deep learning models, **ResNet-50**
-and **DenseNet-121**, for classifying chest X-ray images into three
-categories:
+This project compares two convolutional neural network models, **ResNet-50** and **DenseNet-121**, for classifying chest X-ray images into three categories:
 
--   `Lung_Opacity`
--   `Normal`
--   `Viral Pneumonia`
+1. `Lung_Opacity`
+2. `Normal`
+3. `Viral Pneumonia`
 
-The project studies both classification performance and model
-explanations. Grad-CAM is used to create heat maps that highlight image
-regions influencing a model's prediction. The project also aims to
-examine examples where ResNet-50 and DenseNet-121 make different
-predictions.
+The project evaluates classification performance and uses **Grad-CAM** to create visual explanations of model predictions. It also compares the predictions made by the two models and identifies images where their predictions differ.
 
-The models are evaluated using accuracy, macro-averaged precision,
-macro-averaged recall, macro-averaged F1-score, a confusion matrix, and
-macro one-versus-rest ROC-AUC when it can be calculated.
+Grad-CAM heatmaps show which image regions influenced a model's output. They are research visualizations only. They do not prove that a model is using medically correct evidence and must not be treated as a clinical decision tool.
 
-Grad-CAM visualizations are treated as explanations of model behavior.
-They are not proof that a model focuses on medically correct features or
-that it is suitable for clinical use.
+## Research question
 
-## Current Project Status
+How do ResNet-50 and DenseNet-121 compare in three-class chest X-ray classification, and how do their Grad-CAM visual explanations differ on the same test images?
 
-**Status: Week 2 implementation and initial data preparation completed;
-model experiments are still in progress.**
+## Current project features
 
-The following work has been completed and checked:
+- Three-class chest X-ray dataset loading.
+- Consistent image resizing and ImageNet normalization.
+- Training and validation workflow for ResNet-50 and DenseNet-121.
+- Frozen pretrained feature backbone with classifier-layer training.
+- Best-checkpoint saving based on validation loss.
+- Test-set evaluation with accuracy, macro precision, macro recall, macro F1, confusion matrix, per-class report, and macro one-vs-rest ROC-AUC.
+- CSV export of individual test predictions and class probabilities.
+- Side-by-side prediction comparison on matching image paths.
+- Separate list of model disagreements.
+- Grad-CAM heatmaps for selected test images, with actual class, predicted class, confidence, and correctness.
+- Dataset audit for unreadable images, dimensions, and exact duplicate content across splits.
+- Reproducible duplicate-free split preparation that refuses to overwrite a non-empty destination.
+- **Added feature:** class-wise error analysis from saved test predictions. It reports support, correct and incorrect counts, per-class recall/error rate, actual/predicted class counts, and individual misclassified image records.
 
--   The project dataset was downloaded and its three class folders were
-    confirmed.
--   A script created training, validation, and test splits using random
-    seed `42`.
--   The prepared dataset contains **3,475 images**.
--   A PowerShell folder check confirmed the image counts in all nine
-    class/split folders.
--   The required Python libraries imported successfully.
--   PyTorch reported version `2.15.0+cpu` and Torchvision reported
-    version `0.29.2+cpu`.
--   CUDA was not available in the current environment, so training is
-    running on the CPU.
--   The ResNet-50 training command was started, and the pretrained
-    weights downloaded successfully.
+## Technology
 
-The following work is **not yet confirmed as complete**:
+- Python
+- PyTorch and Torchvision
+- NumPy
+- scikit-learn
+- Matplotlib
+- Pillow
 
--   ResNet-50 training completion and its epoch-level results.
--   DenseNet-121 training.
--   Final test-set evaluation and comparison of the two models.
--   Grad-CAM generation and review.
--   A successful run of the automated unit tests.
+The supplied source archive does not include a `requirements.txt`, dataset, model checkpoints, or existing `outputs/` files. Use the package versions from your working environment or create a requirements file after confirming the versions that successfully run on your computer.
 
-No model accuracy or other classification performance values are
-reported here because completed training and evaluation results have not
-yet been confirmed. Update this section when those experiments finish.
+## Project structure
 
-## Dataset
-
-### Dataset Source
-
-This project currently uses the Kaggle **Lung X-Ray Image** dataset:
-
-https://www.kaggle.com/datasets/fatemehmehrparvar/lung-disease
-
-The dataset used in this project has three classes: `Lung_Opacity`,
-`Normal`, and `Viral Pneumonia`.
-
-**Dataset note:** This is not the two-class pediatric `NORMAL` /
-`PNEUMONIA` dataset described by Kermany et al. (2018). Therefore, the
-Kermany et al. paper is not identified as the source of the current
-three-class dataset. Check the Kaggle dataset page for its current
-license, attribution requirements, and usage terms before redistributing
-or publishing any images.
-
-### Original Dataset Folder Structure
-
-After extracting the downloaded dataset, locate the folder that directly
-contains these three class folders:
-
-``` text
-Lung X-Ray Image/
-├── Lung_Opacity/
-├── Normal/
-└── Viral Pneumonia/
-```
-
-The extracted files may be nested inside more than one folder. The
-`--source` argument must point to the directory directly containing the
-three class folders.
-
-### Prepared Dataset Folder Structure
-
-The preparation script creates the following structure inside the
-project:
-
-``` text
-data/
-└── lung_xray_split/
-    ├── train/
-    │   ├── Lung_Opacity/
-    │   ├── Normal/
-    │   └── Viral Pneumonia/
-    ├── val/
-    │   ├── Lung_Opacity/
-    │   ├── Normal/
-    │   └── Viral Pneumonia/
-    └── test/
-        ├── Lung_Opacity/
-        ├── Normal/
-        └── Viral Pneumonia/
-```
-
-### Current Dataset Counts
-
-  Class                Training   Validation   Testing       Total
-  ----------------- ----------- ------------ --------- -----------
-  Lung_Opacity              787          168       170       1,125
-  Normal                    875          187       188       1,250
-  Viral Pneumonia           770          165       165       1,100
-  **Total**           **2,432**      **520**   **523**   **3,475**
-
-These are the counts from the current prepared split. They may differ if
-another dataset copy or a new split is used.
-
-### Prepare the Dataset
-
-Run this command from the project root directory. Change the source path
-if the dataset is stored somewhere else:
-
-``` powershell
-python -m src.data.prepare_splits --source "C:\path\to\Lung X-Ray Image\Lung X-Ray Image" --destination data/lung_xray_split --seed 42
-```
-
-The source directory must directly contain `Lung_Opacity`, `Normal`, and
-`Viral Pneumonia`.
-
-The script copies the images into the prepared split folders. If the
-destination folder already exists and you need to create the split
-again, first review and rename or remove the old generated split. Do not
-rerun the command into an existing destination without checking it,
-because old files may remain.
-
-The current split is random at the image level, not patient level. If
-patient identifiers are available, a patient-level split should be
-considered to reduce the possibility of images from the same patient
-appearing in more than one split.
-
-## Technologies and Tools
-
--   Python
--   PyTorch
--   Torchvision
--   NumPy
--   Pillow
--   Scikit-learn
--   Matplotlib
--   Grad-CAM implementation in the project source code
--   Visual Studio Code
--   Git and GitHub
-
-The current environment was checked with PyTorch `2.15.0+cpu` and
-Torchvision `0.29.2+cpu`. The project currently uses CPU execution
-because CUDA is unavailable.
-
-## Project Structure
-
-The main source-code structure is:
-
-``` text
-Project/
+```text
+project/
+├── data/
+│   └── lung_xray_split_clean/
+│       ├── train/
+│       │   ├── Lung_Opacity/
+│       │   ├── Normal/
+│       │   └── Viral Pneumonia/
+│       ├── val/
+│       │   ├── Lung_Opacity/
+│       │   ├── Normal/
+│       │   └── Viral Pneumonia/
+│       └── test/
+│           ├── Lung_Opacity/
+│           ├── Normal/
+│           └── Viral Pneumonia/
+├── outputs/
+│   ├── experiments/
+│   └── model_comparison/
 ├── src/
-│   ├── __init__.py
 │   ├── config.py
 │   ├── models.py
 │   ├── train.py
 │   ├── evaluate.py
 │   ├── metrics.py
+│   ├── compare.py
 │   ├── explain.py
+│   ├── error_analysis.py
 │   ├── data/
-│   │   ├── __init__.py
-│   │   ├── prepare_splits.py
-│   │   └── dataset.py
+│   │   ├── audit.py
+│   │   ├── clean_resplit.py
+│   │   ├── dataset.py
+│   │   └── prepare_splits.py
 │   └── tests/
-│       ├── __init__.py
-│       └── test_metrics.py
-├── data/
-│   └── lung_xray_split/
-├── docs/
-│   └── step_2/
-│       └── week_2/
-│           └── method_and_baseline.pdf
-├── requirements.txt
+│       ├── test_metrics.py
+│       └── test_error_analysis.py
 └── README.md
 ```
 
-Additional folders for experiment runners, baseline implementations, or
-result visualizations should only be added when corresponding code is
-implemented. The two models in this study are the comparison models; a
-separate baseline model should not be claimed unless one is actually
-implemented and evaluated.
+## Dataset layout
 
-## Setup Instructions
+The configured split directory is:
 
-### 1. Clone the repository
-
-``` bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd <YOUR_REPOSITORY_FOLDER>
+```text
+data/lung_xray_split_clean/
 ```
 
-Replace the placeholders with your actual GitHub repository URL and
-folder name.
+Each split must contain all three class folders:
 
-### 2. Create a virtual environment
+```text
+train/
+val/
+test/
+```
 
-On Windows PowerShell:
+The folder names must match the class names in `src/config.py` exactly. The dataset loader reads common image formats (`.jpg`, `.jpeg`, `.png`, `.bmp`, `.tif`, `.tiff`) recursively.
 
-``` powershell
+**Important validity note:** The dataset audit can detect exact duplicate image files across splits, but it cannot establish patient-level separation when patient identifiers are unavailable. Do not describe the split as patient-independent unless patient-level metadata has been checked.
+
+## Environment setup
+
+Open a terminal in the project root and create a virtual environment:
+
+### Windows PowerShell
+
+```powershell
 python -m venv .venv
-.venv\Scripts\Activate.ps1
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
 ```
 
-On macOS or Linux:
+Install the libraries used by the source:
 
-``` bash
-python -m venv .venv
-source .venv/bin/activate
+```powershell
+pip install torch torchvision numpy scikit-learn matplotlib pillow
 ```
 
-### 3. Install dependencies
+If PyTorch installation fails or the installed Torch/Torchvision versions are incompatible, use the official PyTorch installation selector for the correct command for your computer.
 
-``` bash
-python -m pip install -r requirements.txt
+## Configuration
+
+The main settings are in `src/config.py`:
+
+- `SPLIT_ROOT`: clean dataset split directory.
+- `OUTPUT_ROOT`: experiment output directory.
+- `CLASS_NAMES`: the fixed three-class order.
+- `IMAGE_SIZE`: image size used by the models.
+- `BATCH_SIZE`: training batch size.
+- `EPOCHS`: training epochs.
+- `LEARNING_RATE`: Adam learning rate.
+- `SEED`: random seed.
+- `MODEL_NAMES`: supported model names.
+
+Keep the class order consistent across training, evaluation, checkpoints, and Grad-CAM. The checkpoint loader checks the saved class names before generating explanations.
+
+## Run the project
+
+Run commands from the project root.
+
+### 1. Audit the existing dataset
+
+```powershell
+python -m src.data.audit
 ```
 
-### 4. Prepare the dataset
+Optional custom data location:
 
-Download and extract the three-class dataset. Follow the folder
-structure and preparation instructions in the Dataset section above.
+```powershell
+python -m src.data.audit --data-root "data/lung_xray_split_clean" --output "outputs/data_audit.json"
+```
 
-## Running the Experiments
+Review unreadable image counts, split counts, dimensions, and duplicate warnings before training.
 
-Run commands from the project root directory.
+### 2. Train ResNet-50
 
-### Train ResNet-50
-
-``` powershell
+```powershell
 python -m src.train --model resnet50
 ```
 
-### Train DenseNet-121
+### 3. Train DenseNet-121
 
-``` powershell
+```powershell
 python -m src.train --model densenet121
 ```
 
-The current initial configuration uses an image size of `224 × 224`,
-batch size `8`, two epochs, learning rate `0.0001`, Adam optimizer,
-cross-entropy loss, and random seed `42`. Two epochs are an initial
-pipeline setting and may not be sufficient for a final research
-comparison.
+The training script saves the best checkpoint, training history, experiment configuration, and experiment summary under:
 
-### Evaluate the Models and Generate Explanations
+```text
+outputs/experiments/resnet50/
+outputs/experiments/densenet121/
+```
 
-The project includes `src/evaluate.py` for test-set evaluation and
-`src/explain.py` for Grad-CAM visualizations. Check each script's
-command-line options before running it, and use the saved model
-checkpoints produced by training. Record the actual commands and output
-paths after confirming them in the current implementation.
+The default training code freezes the pretrained feature backbone and trains the final classifier. It uses the configured seed and saves the checkpoint with the lowest validation loss.
 
-### Run Automated Tests
+### 4. Evaluate each model
 
-``` powershell
+```powershell
+python -m src.evaluate --model resnet50
+python -m src.evaluate --model densenet121
+```
+
+Each evaluation creates:
+
+- `test_metrics.json`
+- `test_predictions.csv`
+
+inside the corresponding model output directory.
+
+### 5. Compare the model predictions
+
+```powershell
+python -m src.compare
+```
+
+The comparison uses the image paths shared by both prediction files and checks that their actual labels match. It creates:
+
+- `prediction_comparison.csv`
+- `model_disagreements.csv`
+- `comparison_summary.json`
+- `prediction_distribution.png`
+
+The agreement rate is descriptive. Agreement does not prove that either model is correct.
+
+### 6. Generate Grad-CAM explanations
+
+Generate Grad-CAM for the first six sorted test images:
+
+```powershell
+python -m src.explain --model resnet50 --checkpoint outputs/experiments/resnet50/best_model.pt --count 6
+python -m src.explain --model densenet121 --checkpoint outputs/experiments/densenet121/best_model.pt --count 6
+```
+
+Generate Grad-CAM only for images where the models disagree:
+
+```powershell
+python -m src.explain --model resnet50 --checkpoint outputs/experiments/resnet50/best_model.pt --count 12 --disagreements
+python -m src.explain --model densenet121 --checkpoint outputs/experiments/densenet121/best_model.pt --count 12 --disagreements
+```
+
+The disagreement option expects:
+
+```text
+outputs/model_comparison/model_disagreements.csv
+```
+
+Grad-CAM images and result files are saved under:
+
+```text
+outputs/experiments/resnet50/gradcam/
+outputs/experiments/densenet121/gradcam/
+```
+
+Each folder contains heatmap images, `gradcam_results.csv`, and `gradcam_summary.json`.
+
+### 7. Run the added class-wise error analysis
+
+Run this after evaluating a model:
+
+```powershell
+python -m src.error_analysis --model resnet50
+python -m src.error_analysis --model densenet121
+```
+
+The command reads the existing `test_predictions.csv` files and writes:
+
+```text
+outputs/experiments/error_analysis/
+├── resnet50_error_analysis.json
+├── resnet50_class_error_summary.csv
+├── resnet50_misclassified_predictions.csv
+├── densenet121_error_analysis.json
+├── densenet121_class_error_summary.csv
+└── densenet121_misclassified_predictions.csv
+```
+
+The class summary reports:
+
+- Number of actual test images in each class (`support`).
+- Correct and incorrect predictions for each actual class.
+- Per-class recall (shown as `accuracy_recall`).
+- Per-class error rate.
+- Actual and predicted class counts.
+
+The misclassified-predictions CSV keeps the image path, actual class, predicted class, and probability columns from the original evaluation file. This makes it possible to inspect individual errors without retraining the models.
+
+## Tests
+
+Run the unit tests from the project root:
+
+```powershell
 python -m unittest discover -s src/tests -v
 ```
 
-A test file is present at `src/tests/test_metrics.py`. The test suite
-should be run and its result recorded; the presence of the test file
-alone does not mean the tests have passed.
+The tests check the existing metric calculations and the added class-wise error-analysis calculations. A passing unit test confirms the tested code behavior; it does not validate model quality or medical usefulness.
 
-## Data Processing
+## Existing experiment results
 
-The current implementation is designed to:
+The following values were shared from the project's current test runs. They are recorded here as the project's reported results, not independently re-created by this README.
 
--   Load images from the three class folders.
--   Resize images to `224 × 224` pixels.
--   Prepare images as three-channel inputs for the pretrained models.
--   Normalize images using ImageNet mean and standard deviation.
--   Apply the configured horizontal-flip augmentation to training
-    images.
--   Keep training, validation, and test data separate.
+| Metric | ResNet-50 | DenseNet-121 |
+|---|---:|---:|
+| Test images | 523 | 523 |
+| Accuracy | 82.03% | 77.25% |
+| Macro precision | 0.8187 | 0.7721 |
+| Macro recall | 0.8266 | 0.7771 |
+| Macro F1 | 0.8196 | 0.7728 |
+| Macro OVR ROC-AUC | 0.9330 | 0.9153 |
 
-The validation set is used during development and model checkpoint
-selection. The test set is reserved for final evaluation and should not
-be used to tune the models.
+The models agreed on 436 of 523 test images (83.37%) and disagreed on 87 (16.63%). These values should be regenerated if the dataset, checkpoints, preprocessing, or experiment settings change.
 
-## Research Workflow
+## Known limitations
 
-The planned experiment follows these steps:
+1. Patient identifiers were not available in the supplied dataset structure, so patient-level split independence has not been confirmed.
+2. The experiments were run on CPU in the reported environment; training is therefore slower than a suitable GPU run.
+3. The current Grad-CAM review uses selected examples. A small selection cannot represent the full test set.
+4. Grad-CAM highlights model sensitivity, not verified medical reasoning.
+5. Performance on this dataset does not establish clinical readiness or performance on external hospitals and populations.
+6. The supplied archive contains source files only. Dataset files, checkpoints, generated outputs, and dependency lock files were not included for independent reproduction.
 
-1.  Load and preprocess the chest X-ray images.
-2.  Train ResNet-50 using the training set and validation set.
-3.  Train DenseNet-121 using the same data split and training settings.
-4.  Evaluate both trained models on the same held-out test set.
-5.  Calculate accuracy, macro precision, macro recall, macro F1-score,
-    confusion matrices, and ROC-AUC when calculable.
-6.  Generate Grad-CAM visualizations for selected test images.
-7.  Compare the visual explanations and identify examples where the
-    models make different predictions.
-8.  Record the results, limitations, and observations.
+## Safe GitHub update guidance
 
-## Expected Outputs
+This update adds `src/error_analysis.py`, its unit test, and this README. It does not require replacing the existing training, evaluation, comparison, or Grad-CAM modules.
 
-After the experiments are completed, the project is expected to produce:
+Before uploading:
 
--   Trained model checkpoints for ResNet-50 and DenseNet-121.
--   Training and validation history.
--   Test-set evaluation metrics.
--   Confusion matrices.
--   Prediction records for test images.
--   Grad-CAM visualizations.
--   A comparison of model predictions and selected disagreement cases.
+1. Keep a local backup or download a ZIP of the current working repository.
+2. Add the new files without deleting or renaming existing files.
+3. Upload `README.md` at the repository root.
+4. Run the unit tests and then run the new analysis against the existing prediction CSVs.
+5. Review the generated CSV/JSON files before committing them.
+6. Do not upload private patient information, credentials, virtual environments, or large datasets.
 
-The actual output locations should be recorded after confirming where
-the current scripts save their files.
+## Repository
 
-## Limitations and Reproducibility Notes
-
--   The current environment uses CPU-only PyTorch, so training may take
-    longer than GPU training.
--   The current two-epoch configuration is intended for an initial
-    implementation check, not a final performance claim.
--   The current split is image-level. Patient-level separation should be
-    considered if patient identifiers can be obtained.
--   The dataset classes have different image counts. Macro-averaged
-    metrics are included to give each class equal weight in the summary.
--   Grad-CAM highlights image regions that influence model output, but
-    it does not establish medical correctness or clinical reliability.
--   Record the dataset version, code changes, parameters, and actual
-    experiment outputs so that the work can be reproduced.
-
-## Project Status Summary
-
-At the current Week 2 stage, the dataset has been prepared and verified,
-the Python environment has passed the import check, and the source code
-for model training, evaluation, metrics, and Grad-CAM is in place.
-ResNet-50 training has been launched and its pretrained weights have
-downloaded, but the training completion and model metrics have not yet
-been confirmed. DenseNet-121 training and the final comparison remain to
-be completed.
-
-**Update this README when training, testing, and Grad-CAM runs finish.
-Only add measured results after they have been produced by the code.**
+https://github.com/pyamala-stack/FA26_Yamala_Pavani_COMP_699_A
